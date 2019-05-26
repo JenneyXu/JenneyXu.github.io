@@ -1,9 +1,7 @@
 # Site settings
-name: Voliet's blog
+name: Welcome to Jenney's blog !
 email: xuzh9310@163.com
-author: Voliet
-# url: http://www.hifreud.com
-# resume_site: http://www.hifreud.com/Resume.io/
+author: Jenney
 github: https://github.com/JenneyXu/
 baseurl: "/JenneyXu.github.io"
 description: Code is Poetry, Poetry is Beautiful!

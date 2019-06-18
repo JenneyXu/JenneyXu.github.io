@@ -1,18 +1,19 @@
 ---
 layout: post
-title:  rem+媒体查询+vw 实现移动端自适应
+title:  CSS 预处理器 Sass
 date:   2019-06-18 00:00:00 +0800
-categories: 前端工程化之自适应
-tag: 前端工程化
+categories: CSS 预处理
+tag: CSS
 ---
 
 * content
 {:toc}
 
 
-#### <font color="#65A5EA" size="3">1. rem 原理</font>			{#say-goodbyte}
+#### <font color="#65A5EA" size="3">1. CSS 的预处理器 Sass</font>			{#say-goodbyte}
 
-&emsp;&emsp;首先，应该很清楚 rem 和 em的区别了：em 是相对于父元素字体而言；rem 是相对于根字体而言的。   
+&emsp;&emsp;Sass 在 CSS 语法的基础上增加了变量 (variables)、嵌套 (nested rules)、混合 (mixins)、导入 (inline imports)、运算等高级功能，这些拓展令 CSS 更加强大与优雅。   
+&emsp;&emsp;可能你还听过 Scss，其实 Sass 有两种格式，一种是 Sass 早期的语法格式 .sass ；另一种是 Scss ，在 CSS 3 的基础上加入 sass 规则 .scss。两者可以通过 sass-convert 转换。   
 &emsp;&emsp;下载地址：https://www.charlesproxy.com/download/  
 
 #### <font color="#65A5EA" size="3">2. 媒体查询</font>			{#say-goodbyte} 
